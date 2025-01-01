@@ -11,13 +11,13 @@
     <header class="p-1 border-bottom border-light">
         <nav class="navbar navbar-expand-lg bg-dark navigation" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./Images/logo-sushi.png" alt="Logo-Sushi"></a>
+              <a class="navbar-brand" href="./index.html"><img src="./Images/logo-sushi.png" alt="Logo-Sushi"></a>
               <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav w-100 justify-content-around">
-                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
                   <a class="nav-link" href="#">Concept</a>
                   <a class="nav-link" href="#">Commander</a>
                   <a class="nav-link" href="#">Espace fidelite</a>
@@ -27,11 +27,83 @@
             </div>
           </nav>
     </header>
+
+
     <main>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Images/Sushi.jpg" class="d-block w-100" alt="sushi">
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Sushi.jpg" class="d-block w-100" alt="sushi">
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Sushi.jpg" class="d-block w-100" alt="sushi">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                  <p class="text-uppercase text-xl-center p-5 m-0" style="color: rgb(204, 204, 204);">Pour votre santé, mangez au moins cinq fruits et légumes par jour</p>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
 
+
+    <footer class="border-top border-light p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                  <h5 class="text-uppercase p-1" style="color: rgb(204, 204, 204);">Accueil</h5>
+                  <a href=""><p>La carte</p></a>
+                  <a href=""><p>Espace fidélité</p></a>
+                </div>
+                <div class="col">
+                  <h5 class="text-uppercase p-1" style="color: rgb(204, 204, 204);">Concept</h5>
+                  <a href=""><p>Fraicheur</p></a>
+                  <a href=""><p>Respect</p></a>
+                  <a href=""><p>Cadre unique</p></a>
+                </div>
+                <div class="col">
+                  <h5 class="text-uppercase p-1" style="color: rgb(204, 204, 204);">Carte</h5>
+                </div>
+                <div class="col">
+                  <h5 class="text-uppercase p-1" style="color: rgb(204, 204, 204);">Restaurants</h5>
+                  <a href=""><p>Fraicheur</p></a>
+                  <a href=""><p>Respect</p></a>
+                  <a href=""><p>Cadre unique</p></a>
+                  <a href=""><p>Fraicheur</p></a>
+                  <a href=""><p>Respect</p></a>
+                  <a href=""><p>Cadre unique</p></a>
+                </div>
+                <div class="col">
+                  <h5 class="text-uppercase p-1" style="color: rgb(204, 204, 204);">Espace clients</h5>
+                  <a href=""><p>Fraicheur</p></a>
+                  <a href=""><p>Respect</p></a>
+                  <a href=""><p>Cadre unique</p></a>
+                </div>
+                <div class="col">
+                  <a class="navbar-brand" href="./index.html"><img src="./Images/logo-sushi.png" alt="Logo-Sushi" width="180px"></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./JS/bootstrap.js"></script>
 </body>
