@@ -1,3 +1,5 @@
+/* Accueil, Header et Footer */
+
 body{
     background-color: #212529;
     color: white;
@@ -30,4 +32,14 @@ button#navbar-toggler {
 
 header a:hover{
     color: #b6b6b6 !important;
+}
+
+
+
+/* Commander */
+
+.carte{
+    background-color: #212529;
+    color: white;
+    border: 1px solid white;
 }
